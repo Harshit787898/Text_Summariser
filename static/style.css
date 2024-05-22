@@ -1,0 +1,137 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #210472;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f1dcf0;
+    border-radius: 10px;
+    border: 4px solid rgb(1, 26, 21);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #007bff;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+input {
+    height: max-content;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 2px solid rgb(14, 1, 70);
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    color: #091301;
+    background: white;
+}
+
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 1em;
+    margin-left: 340px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:focus {
+    outline: none;
+}
+
+.summary-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.original-text,
+.summary {
+    flex-basis: 48%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 2px solid black;
+}
+
+
+p {
+    line-height: 1.6;
+    font-size: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.words {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.words p {
+    flex: 1;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+.subhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.subhead h2{
+    flex: 1;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}

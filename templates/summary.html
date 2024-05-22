@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarization</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Text Summarization</h1>
+            <p>Retrieve the best summary for the text</p>
+        </header>
+        <div class="subhead">
+            <h2>Original Text</h2>
+            <h2>Summary</h2>
+        </div>
+        <div class="summary-container">
+            <div class="original-text">
+                <p>{{ original_text }}</p>
+            </div>
+            <div class="summary">
+                <p>{{ summary }}</p>
+            </div>
+        </div>
+        <div class="words">
+            <p>Word Count (original text)-: {{len_orig_txt}}</p>
+            <p>Word Count (Summary)-: {{len_summary}}</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Text Summarization</h1>
+            <p>Retrieve the best summary for the text</p>
+        </header>
+        <form id="summaryForm" action="/analyse" method="post">
+            <input type="text" id="inputText" name="rawtext" rows="6" placeholder="Enter your text"></input>
+            <button type="submit">Summarise</button>
+        </form>
+    </div>
+</body>
+</html>
